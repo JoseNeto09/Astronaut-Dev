@@ -117,17 +117,17 @@ body{
   footer .social-links {
     display: flex;
     grid-gap: 50px;
-    padding-bottom: 20px;
-    padding-left: 0.5rem;
-    padding-top: 50px;
-    padding-right: 0.5rem;
+    padding: 20px 0.5rem 50px 0.5rem;
   }
   
   footer .wrapper {
     grid-template-columns: 2fr 2fr;
     grid-template-areas: 'A B';
   }
-
+  
+   ul{
+  list-style-type: none;
+  }
 
   /*=== FOOTER =================================*/
   footer {
@@ -136,4 +136,4 @@ body{
     height: auto;
   }
 
-    
+
