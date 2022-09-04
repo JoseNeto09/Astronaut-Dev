@@ -3,21 +3,23 @@
 body{
     margin: 0;
     font-family: 'Noto Music', sans-serif;
-
 }
+
 
 .main-login{
     width: auto;
-    height: 950px;
+    height: 780px;
     background: #201b2c;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 120px;
+    padding-right: 200px;
 }
 
 .left-login{
-    width: 100vw;
-    height: 100vh;
+    width: 60%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px;
+    padding: 40px 90px;
     background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
@@ -140,8 +142,8 @@ p {
 
 footer .social-links {
     display: flex;
-    grid-gap: 15px;
-    padding: 70px 170px 5px 30px;
+    grid-gap: 5px;
+    padding: 110px 80px 5px 30px;
 }  
 footer .wrapper {
     grid-template-columns: 2fr 2fr;
@@ -156,8 +158,6 @@ footer {
     background: #77ffc0;
     display: flex;
     width: auto;
-    height: 160px;
-    padding: 30px 30px 95px 20px;
+    height: 260px;
+    padding: 5px 30px 30px 20px;
 }
-
-
