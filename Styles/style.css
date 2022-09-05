@@ -16,7 +16,6 @@ body{
     padding-bottom: 120px;
     padding-right: 200px;
 }
-
 .left-login{
     width: 60%;
     height: 60%;
@@ -24,44 +23,38 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-left: 20%; ;
 }
-
 .left-login > h1 {
     color: #77ffc0;
 }
-
 .left-login-img{
     width: 400px;
-    padding-left: 80px;
 
 }
-
 .right-login{
     width: 60vw;
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 20%;
 }
-
 .card-login{
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 90px;
+    padding: 50px 90px;
     background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
-
 .card-login > h1 {
     color: #00ff88;
-    font-weight: 600;
-    margin: 0;
+    font-weight: 700;
 }
-
 .textfield{
     width: 100%;
     display: flex;
@@ -70,7 +63,6 @@ body{
     justify-content: center;
     margin: 20px 0px;
 }
-
 .textfield > input{
     width: 100%;
     border: none;
@@ -83,12 +75,10 @@ body{
     outline: none;
     box-sizing: border-box;
 }
-
 .textfield > label{
     color: #f0ffffde;
     margin-bottom: 10px;
 }
-
 .textfield > input::placeholder{
     color: #f0ffff94;
 }
@@ -129,7 +119,6 @@ img.logoSubtitulo{
     width: min(160px,100%);
     padding-left: 6px;
     padding-top: 5px;
-
 }
 img.AstronautaLogo{
     width: min(160px, 50%);
@@ -139,7 +128,6 @@ p {
     width: auto;
     height: auto;
 }
-
 footer .social-links {
     display: flex;
     grid-gap: 5px;
@@ -152,7 +140,6 @@ footer .wrapper {
 ul{
     list-style-type: none;
 }
-
 /*=== FOOTER =================================*/
 footer {
     background: #77ffc0;
