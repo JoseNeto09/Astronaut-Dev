@@ -8,7 +8,7 @@ body{
 
 .main-login{
     width: auto;
-    height: 780px;
+    height: 800px;
     background: #201b2c;
     display: flex;
     justify-content: center;
@@ -29,8 +29,7 @@ body{
     color: #77ffc0;
 }
 .left-login-img{
-    width: 400px;
-
+    width: min(900px, 120%);
 }
 .right-login{
     width: 60vw;
@@ -53,7 +52,7 @@ body{
 }
 .card-login > h1 {
     color: #00ff88;
-    font-weight: 700;
+    font-weight: 500;
 }
 .textfield{
     width: 100%;
@@ -83,6 +82,22 @@ body{
     color: #f0ffff94;
 }
 .btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: 25px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-cadastro{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -128,11 +143,6 @@ p {
     width: auto;
     height: auto;
 }
-footer .social-links {
-    display: flex;
-    grid-gap: 5px;
-    padding: 110px 80px 5px 30px;
-}  
 footer .wrapper {
     grid-template-columns: 2fr 2fr;
     grid-template-areas: 'A B';
@@ -145,6 +155,12 @@ footer {
     background: #77ffc0;
     display: flex;
     width: auto;
-    height: 260px;
-    padding: 5px 30px 30px 20px;
+    height: 290px;
+    padding: 35px 80px 13px 232px;  
+}
+
+footer .social-links {
+    display: flex;
+    grid-gap: 5px;
+    padding: 154px 95px 5px 44px;
 }
