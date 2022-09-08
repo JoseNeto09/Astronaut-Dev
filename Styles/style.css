@@ -3,8 +3,7 @@
 body{
     margin: 0;
     font-family: 'Noto Music', sans-serif;
-}
-
+}  
 
 .main-login{
     width: auto;
@@ -32,19 +31,19 @@ body{
     opacity: 0.7;
 }
 .left-login-img{
-    width: min(900px, 120%);
-    padding-left: 30px;
-    padding-top: 10%;
-    background-size: cover;
-
+    width: min(700px, 100%);
+    padding-left: auto;
+    padding-top: 30%;
+    display: flex;
 }
 .right-login{
     width: 60vw;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 10%;
+    display: block;
     
 }
 .card-login{
@@ -53,7 +52,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px 90px;
+    padding: 30px 76px;
+    margin-left: auto;
     background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
@@ -164,20 +164,28 @@ footer {
     background: #77ffc0;
     display: flex;
     width: auto;
-    height: 290px;
-    padding: 35px 80px 13px 232px;
-    background-size: cover;  
+    height: 309px;
+    padding: 54px 12px 41px 140px;
+    background-size: cover;
+    justify-self:flex-start
 }
 footer .social-links {
     display: flex;
     grid-gap: 5px;
-    padding: 154px 95px 5px 44px;
-}
+    padding: 472px 222px 29px 31px;
+  }
+
+footer .col-b {
+    align-self: center;
+    justify-self: flex-end;
+    margin-inline-start: auto;
+  }
 
 a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+    
 }
 
 a:hover{
@@ -186,24 +194,25 @@ a:hover{
 
 .logo{
     padding-top: 20px;
+    padding-left: 70px;
     font-size: 24px;
     text-transform: uppercase;
 }
 
 nav{
     display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-    'Helvetica Neue', sans-serif;
+    justify-content:space-between;
+    padding-top: 30px;
+    font-family: system-ui, 'Noto Music'; 
+    text-transform: uppercase;
     background: #2f2841;
     height: 8vh;
 }
-
 .nav-list {
     list-style: none;
     display: flex;
+    padding-top: 15px;
+    padding-right: 30vh;
   }
   
   .nav-list li {
