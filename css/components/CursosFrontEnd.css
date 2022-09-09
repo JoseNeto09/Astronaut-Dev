@@ -1,0 +1,21 @@
+
+.html-logo{
+    width: min(300px, 100px);
+    display: flex;
+  }
+  .css-logo{
+    width: min(300px, 100px);
+    display: flex;
+  }
+  .javavscript-logo{
+    width: min(300px, 100px);
+    display: flex;
+  }
+  .Carreira-Frontend{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f2841;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }

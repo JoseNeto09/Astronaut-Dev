@@ -1,0 +1,70 @@
+/*=== FOOTER =================================*/
+footer {
+    background: #77ffc0;
+    display: flex;
+    width: auto;
+    height: 309px;
+    padding: 54px 12px 41px 140px;
+    background-size: cover;
+    justify-self:flex-start
+}
+footer .social-links {
+    display: flex;
+    grid-gap: 5px;
+    padding: 472px 222px 29px 31px;
+}
+
+footer .col-b {
+    align-self: center;
+    justify-self: flex-end;
+    margin-inline-start: auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+a.logo{
+    height: auto;
+    width: auto;
+    padding-bottom: 100px;
+}
+img.wrapper{
+    display: flex;
+    height: auto;
+    width: 120px;
+} 
+img.logoSubtitulo{
+    width: min(160px,100%);
+    padding-left: 6px;
+    padding-top: 5px;
+}
+img.AstronautaLogo{
+    width: min(160px, 50%);
+    display: grid;
+}
+p {
+    width: auto;
+    height: auto;
+}
+footer .wrapper {
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 'A B';
+}
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 24px;
+    text-transform: uppercase;
+}

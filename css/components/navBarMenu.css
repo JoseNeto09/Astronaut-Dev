@@ -1,0 +1,122 @@
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-family: system-ui, 'Noto Music'; 
+    text-transform: uppercase;
+    background: #2f2841;
+    height: 9vh;
+}
+.btn-navButtonLogin{
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding-left: 19px;
+  padding-right: 19px;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-family: system-ui, 'Noto Music';
+  letter-spacing: 5px;
+  color: #2b134b;
+  background-color: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  transition: 0.3s;
+  
+}
+.btn-navButtonCadastro{
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding-left: 19px;
+  padding-right: 19px;
+  outline: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-family: system-ui, 'Noto Music';
+  letter-spacing: 5px;
+  color: #2b134b;
+  background-color: #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  transition: 0.3s;
+}
+.navButton{
+  padding-left: 30px;
+  grid-gap: 20px;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-left: 40px;
+    grid-gap: 5px;
+  }
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
