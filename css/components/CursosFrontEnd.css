@@ -1,21 +1,45 @@
-
 .html-logo{
-    width: min(300px, 100px);
+    width: min(300px, 160px);
     display: flex;
+    padding-left: 0;
   }
   .css-logo{
-    width: min(300px, 100px);
+    width: min(296px, 184px);
     display: flex;
   }
   .javavscript-logo{
-    width: min(300px, 100px);
+    width: min(296px, 184px);
     display: flex;
   }
-  .Carreira-Frontend{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .wrapper2{
+    display: grid;
     background-color: #2f2841;
-    padding-top: 200px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .Carreira-Frontend{
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #2f2841;
+    grid-gap: 90px;
+    padding-bottom: 300px;
+  }
+
+  wrapper2 .titulo-frontend{
+    padding-left: 39px;
+  }
+
+  .titulo-frontend h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
     padding-bottom: 200px;
+    font-weight: 600px;
+    font-family: system-ui, 'Noto Music';
+    color: #00ff88;
   }

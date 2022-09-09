@@ -1,0 +1,17 @@
+.Bem-vindo{
+    display: grid;
+    justify-content: space-around;
+    background-color: #ffff;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+.Bem-vindo h1{
+    display: flex;
+    justify-items: center;
+    text-transform: uppercase;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 130px;
+    margin: auto;
+}
+
