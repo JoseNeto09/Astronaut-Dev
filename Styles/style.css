@@ -4,7 +4,6 @@ body{
     margin: 0;
     font-family: 'Noto Music', sans-serif;
 }  
-
 .main-login{
     width: auto;
     height: 800px;
@@ -12,8 +11,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 120px;
-    padding-right: 276px;
+    padding-top: 139px;
+    padding-bottom: 200px;
+    padding-right: 221px;
     background-size: cover;
 }
 .left-login{
@@ -31,7 +31,7 @@ body{
     opacity: 0.7;
 }
 .left-login-img{
-    width: min(700px, 100%);
+    width: max(100%, 100%);
     padding-left: auto;
     padding-top: 30%;
     display: flex;
@@ -44,7 +44,6 @@ body{
     align-items: center;
     padding-left: 10%;
     display: block;
-    
 }
 .card-login{
     width: 60%;
@@ -104,39 +103,23 @@ body{
     background-color: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
-    
-}/*
-.checkbox > label{
-  color: #f0ffffde;
-  font-weight: 200;
 }
-.checkbox{
-  padding-top: auto;
-  display: flex;
-  padding-bottom: 30px;
-  width: 100%;
-  justify-items: center;
-}
-*/
 .Esqueceu-senha{
   display: block;
   padding-left: 0;
   width: 100%;
   justify-items: center;
 }
-
 .Esqueceu-senha ul{
   display: flex;
   padding-left: 0;
   width: 100%;
   justify-content: space-between;
 }
-
 .html-logo{
-  width: min(200px, 100px);
+  width: min(300px, 100px);
   display: flex;
 }
-
 .css-logo{
   width: min(300px, 100px);
   display: flex;
@@ -145,26 +128,21 @@ body{
   width: min(300px, 100px);
   display: flex;
 }
-
 .Carreira-Frontend{
   display: flex;
-  padding-left: auto;
   justify-content: space-around;
   align-items: center;
-  width: auto;
-  height: auto;
+  background-color: #2f2841;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0;
-  
 }
 .wrapper {
-    width: min(150rem, 100%);
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    text-shadow: #514869;
+  width: min(150rem, 100%);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-shadow: #514869;
 } 
 a.logo{
     height: auto;
@@ -234,7 +212,6 @@ a:hover{
     font-size: 24px;
     text-transform: uppercase;
 }
-
 nav{
     display: flex;
     justify-content:space-between;
@@ -282,12 +259,10 @@ nav{
   box-shadow: 0px 10px 40px -12px #00ff8052;
   transition: 0.3s;
 }
-
 .navButton{
   padding-left: 30px;
   grid-gap: 20px;
 }
-
 .nav-list {
     list-style: none;
     display: flex;
@@ -296,25 +271,21 @@ nav{
     padding-left: 40px;
     grid-gap: 5px;
   }
-  
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
   }
-  
   .mobile-menu {
     display: none;
     cursor: pointer;
   }
-  
   .mobile-menu div {
     width: 32px;
     height: 2px;
     background: #fff;
     margin: 8px;
     transition: 0.3s;
-  }
-  
+  }  
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
@@ -340,11 +311,9 @@ nav{
       display: block;
     }
   }
-  
   .nav-list.active {
     transform: translateX(0);
   }
-  
   @keyframes navLinkFade {
     from {
       opacity: 0;
@@ -355,15 +324,12 @@ nav{
       transform: translateX(0);
     }
   }
-  
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
-  
   .mobile-menu.active .line2 {
     opacity: 0;
   }
-  
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
