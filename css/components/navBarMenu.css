@@ -9,25 +9,6 @@ nav{
     background: #2f2841;
     height: 9vh;
 }
-.btn-navButtonLogin{
-  width: auto;
-  border-radius: 8px;
-  margin-bottom: 40px;
-  padding-left: 19px;
-  padding-right: 19px;
-  outline: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 600;
-  font-family: system-ui, 'Noto Music';
-  letter-spacing: 5px;
-  color: #2b134b;
-  background-color: #00ff88;
-  cursor: pointer;
-  box-shadow: 0px 10px 40px -12px #00ff8052;
-  transition: 0.3s;
-  
-}
 .btn-navButtonCadastro{
   width: auto;
   border-radius: 8px;
