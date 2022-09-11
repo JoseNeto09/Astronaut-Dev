@@ -11,6 +11,7 @@ Uma Landing Page está sendo desenvolvida, apresentação de carreiras em desenv
 
 # Prototipagem 
   Figma
-  
-  
-  Desenvolvedor: José Lopes Sobrinho Neto
+
+
+
+Desenvolvedor: José Lopes Sobrinho Neto
