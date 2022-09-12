@@ -8,25 +8,13 @@
     transition: .3s;
     text-decoration: none;
 }
-.Bem-vindo h1
-{
-    margin-top: 10%;
-    margin-left: 50%;
-    width: 100%;
+.Bem-vindo h1 {
+    margin-top: 300px;
+    margin-left: 814px;
+    width: 50%;
     display: flex;
     justify-content: center;
-    padding-bottom: 130px;
-    font-family: system-ui, 'Noto Music';
-    color: #00ff88;
-}
-.Bem-vindo h2
-{
-    width: 100%;
-    display: flex;
-    justify-items: center;
-    margin-left: 50%;
-    padding-bottom: 130px;
-    font-weight: 600px;
+    padding-bottom: 378px;
     font-family: system-ui, 'Noto Music';
     color: #00ff88;
 }
