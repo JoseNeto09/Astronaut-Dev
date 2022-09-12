@@ -1,5 +1,6 @@
 /*=== FOOTER =================================*/
-footer {
+footer 
+{
     background: #77ffc0;
     display: flex;
     width: auto;
@@ -8,61 +9,78 @@ footer {
     background-size: cover;
     justify-self:flex-start
 }
-footer .social-links {
+footer .social-links 
+{
     display: flex;
     grid-gap: 5px;
     padding: 472px 222px 29px 31px;
 }
 
-footer .col-b {
+footer .col-b 
+{
     align-self: center;
     justify-self: flex-end;
     margin-inline-start: auto;
 }
 
-a {
+a 
+{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
     
 }
 
-a.logo{
+a.logo
+{
     height: auto;
     width: auto;
     padding-bottom: 100px;
 }
-img.wrapper{
+
+img.wrapper
+{
     display: flex;
     height: auto;
     width: 120px;
 } 
-img.logoSubtitulo{
+img.logoSubtitulo
+{
     width: min(160px,100%);
     padding-left: 6px;
     padding-top: 5px;
 }
-img.AstronautaLogo{
+
+img.AstronautaLogo
+{
     width: min(160px, 50%);
     display: grid;
 }
-p {
+
+p 
+{
     width: auto;
     height: auto;
 }
-footer .wrapper {
+
+footer .wrapper 
+{
     grid-template-columns: 2fr 2fr;
     grid-template-areas: 'A B';
 }
-ul{
+
+ul
+{
     list-style-type: none;
 }
 
-a:hover{
+a:hover
+{
     opacity: 0.7;
 }
 
-.logo{
+.logo
+{
     padding-top: 20px;
     padding-left: 70px;
     font-size: 24px;

@@ -1,9 +1,8 @@
 
 nav{
+    width: 100%;
     display: flex;
     justify-content:space-between;
-    padding-top: 30px;
-    padding-right: 30px;
     font-family: system-ui, 'Noto Music'; 
     text-transform: uppercase;
     background: #2f2841;
@@ -11,7 +10,7 @@ nav{
 }
 .btn-navButtonCadastro{
   width: auto;
-  border-radius: 8px;
+  border-radius: 7px;
   margin-bottom: 40px;
   padding-left: 19px;
   padding-right: 19px;
